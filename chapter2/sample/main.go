@@ -8,7 +8,7 @@ import (
 	"github.com/goinaction/code/chapter2/sample/search"
 )
 
-// init is called prior to main.
+// init is called prior to mains.
 func init() {
 	// Change the device for logging to stdout.
 	log.SetOutput(os.Stdout)
